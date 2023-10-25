@@ -1,0 +1,36 @@
+table, th, td {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid white;
+  border-collapse: collapse;
+  border-style: dotted;
+}
+th, td {
+  background-color: #9bbdcc;
+}
+body {
+    background-image: url(https://rzda.ru/upload/iblock/985/985ddc43d87575f94acc1b9ab2312e14.jpg);
+    background-repeat: no-repeat;
+    background-size: 1920px, 1080px;
+}
+
+.subforum-title {
+	background-color: #5d7580;
+	padding: 5px;
+	border-radius: 5px;
+	margin: 4px;
+}
+
+.text-ex-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(https://fstfoto.ru/upload/iblock/e99/_D1_81_D0_B5_D1_80_D1_8B_D0_B9.jpg); /* Путь к картинке */
+  background-repeat: no-repeat; /* Фон не повторяется */
+  background-size: 700px 1600px; /* Растягиваем  фон по высоте и ширине */
+  background-position: center; /* Позиция фона по центру */
+  height: 1200px; /* Высота блока */
+}
+     
+
+
